@@ -9,6 +9,12 @@ The App is based on ReactJS consisting of:
 
 You can visit the hosted site at [https://roc8-chessboard.netlify.app](https://roc8-chessboard.netlify.app/)
 
+### Screenshots
+![ss1](https://user-images.githubusercontent.com/50284087/221410057-fe8763e3-6613-4891-a265-9d38a8b02794.png)
+![ss](https://user-images.githubusercontent.com/50284087/221410064-c97c6acb-dd7e-42df-a71d-732e378a90a2.png)
+![ss3](https://user-images.githubusercontent.com/50284087/221410089-fd4a0d6c-98fe-4df9-8a67-2cfd50f04c64.png)
+
+
 If you want to run it locally follow:
 
 Clone the repo
