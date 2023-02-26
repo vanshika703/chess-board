@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(190,35,164,1) 0%, rgba(207,31,161,1) 35%, rgba(21,194,230,1) 100%);
 }
 
 .App-logo {
@@ -34,5 +39,49 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: calc(70*8px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+.box{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+ /*  border: 1px solid black; */
+  width: 70px;
+  height: 70px;
+  background-color: rgb(244, 240, 240);
+}
+
+.alt{
+  background-color: rgb(23, 23, 23);
+}
+.highlight{
+  background-color: rgb(111, 247, 154);
+}
+.current{
+  background-color: rgb(72, 202, 113);
+  background-image: url("../public/logo512.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-center{
+    width: calc(40*8px);
+    
+  }
+  .box{
+    width: 40px;
+    height: 40px;
   }
 }
