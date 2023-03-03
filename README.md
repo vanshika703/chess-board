@@ -1,6 +1,5 @@
 # Chess Board
 
-This project is for Roc8 assignment created on 26 Feb 2023.
 The App is based on ReactJS consisting of:
 
 - single page application under App.js
